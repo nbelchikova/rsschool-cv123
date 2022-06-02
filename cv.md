@@ -1,6 +1,5 @@
 
 ### Natalia Belchikova
-![Photo](IMG_20220327_181950 (1).jpg =200x450)
 ##### Contact information:
 * *+7-985-164-70-16;*
 * *n.belchikova@yandex.ru;*
@@ -14,6 +13,6 @@
 ```javascript
 console.log('Hello, World!');
 ```
-
+![Photo](IMG_20220327_181950 (1).jpg)
 
 
