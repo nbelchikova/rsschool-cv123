@@ -9,7 +9,7 @@
 ###### **About me**
 *I gradutade Belarusian National Technical Universitu in 2014. I have been working as a customer service specialist for foreign companies for 8 years. I finished IT-course Fronend Developer in Codecademy.*
 ###### **Skills:**
-*HTML, CSS, JavaScript, Git, PHP, English-B2, GitHub, HTTP*
+*HTML, CSS, JavaScript, PHP, English-B2, GitHub, HTTP*
 ###### **Example of my code:**
 ```javascript
 console.log('Hello, World!');
