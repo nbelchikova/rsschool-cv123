@@ -26,6 +26,9 @@ h3 {
 div {
     height:250px;
 }
+.div {
+    height:100px;
+}
 section {
     border-bottom:solid 20px #e3e1e3;
 }
@@ -118,7 +121,7 @@ span {
         padding-left: 20px;
         padding-right: 20px;
         background-color: #fbf9fb;
-        width: 100%;
+        width: auto;
     }
     .parag-contacts,
     .parag-education {
