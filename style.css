@@ -153,6 +153,9 @@ span {
         width: auto;
         right: 500px;   
     }
+    a {
+        text-decoration: none;
+    }
 }
 
 
