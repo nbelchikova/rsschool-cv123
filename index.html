@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body> 
+<body class="page-body"> 
     <header class="header">
         <nav class="nav">
             <ul class="nav-list">
@@ -19,7 +19,7 @@
                     <a href="#contacts">Contacts</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#summary">About me</a>
+                    <a href="#about">About me</a>
                 </li>
                 <li class="nav-item">
                     <a href="#skills">Skills</a>
@@ -36,19 +36,15 @@
             </ul>    
         </nav>
     </header>
-    <main class="main">
-        <div class="left-side">
-            <figure class=""figure-left-side>
-                <img src="assets/IMG_20220327_181950 (1).jpg" class="photo" width=300 height=auto 
+    <aside class="aside">
+            <figure class="figure-left-side">
+                <img src="assets/IMG_20220327_181950 (1).jpg" class="photo" width=380 height=auto 
      alt="My photo">
             </figure>
-            <section class="contacts" id="contacts">
-                <h3 class="title-contacts">
+            <section>
+                <h2 class="title-contacts">
                     Contacts
-                </h3>
-                <p class="parag" id="parag-contacts">
-                    Address: Almaty, Kazahstan
-                </p>
+                </h2>
                 <p class="parag" id="parag-contacts">
                     Email: n.belchikova@yandex.ru
                 </p>
@@ -59,34 +55,38 @@
                     Discord: Natalia1991(@nbelchikova)
                 </p>
             </section>
-            <section class="education" id="education">
-                <h3 class="title-education">
+            <section>
+                <h2 class="title-education">
                     Education
-                </h3>
-                <p class="parag" id="parag-ceducation">
+                </h2>
+                <p class="parag" id="parag-education">
                     Belarusian National Technical University (Civil and industry engineer)(2009-2014)
                 </p>
                 <p class="parag" id="parag-education">
                     Codecademy (Front-end developer)(2022)
                 </p>
             </section>
-        </div>
-        <div class="'right-side">
+            
+            
+    </aside>
+    <main class="main">       
             <section class="page-title">
+                <figure class="figure-right-side">
+                    <img src="assets/IMG_20220327_181950 (1).jpg" class="photo" width=380 height=auto 
+         alt="My photo">
+                </figure>
                 <h1 class="main-title">
                     Natalia
                     <br>
+                    <br>
                     Belchikova
                 </h1>
-                <p class="usual">
+                <p class="usual" id="center-text">
                     Front-end developer
                 </p>
             </section>
-            <figure class="figure-right-side">
-                <img src="assets/IMG_20220327_181950 (1).jpg" class="photo" width=300 height=auto 
-     alt="My photo">
-            </figure>
-            <section class="summary">
+            
+            <section class="about">
                 <h3 class="title">
                     About me
                 </h3>
@@ -113,7 +113,7 @@
                     <li class="item-projects"><a href="https://nbelchikova.github.io/tea.github.io/" target="_blank">Tea</a></li>
                     <li class="item-projects"><a href="https://nbelchikova.github.io/Harry_Potter/" target="_blank">Harry Potter</a></li>
                     <li class="item-projects"><a href="https://nbelchikova.github.io/skf.github.io/" target="_blank">SKF</a></li>
-                    <li class="https://nbelchikova.github.io/BeLka3/" target="_blank">Belka</a></li>
+                    <li class="item-projects"><a href="https://nbelchikova.github.io/BeLka3/" target="_blank">Belka</a></li>
                 </ul>
             </section>
             <section class="code">
@@ -122,8 +122,7 @@
                 </h3>
                 <pre class="'pre">
                     <code class="code">
-                        <span class="function">console.log</span>
-                        <span class="text">('Hello World')</span>
+                        <span class="function">console.log</span><span class="text">('Hello World')</span>
                     </code>
                 </pre>
             </section>
@@ -148,14 +147,14 @@
                 <h3 class="title-education">
                     Education
                 </h3>
-                <p class="parag" id="parag-ceducation">
+                <p class="parag" id="parag-education">
                     Belarusian National Technical University (Civil and industry engineer)(2009-2014)
                 </p>
                 <p class="parag" id="parag-education">
                     Codecademy (Front-end developer)(2022)
                 </p>
             </section>
-        </div>
+            <div></div>
     </main>
     <footer class="footer">
         <ul class="footer-list">
